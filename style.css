@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500&display=swap');
+textarea{
+    width:80%;
+    display:block;
+    height:10vh;
+    margin:auto;
+    padding:2rem;
+    text-decoration: none;
+}
+#output{
+    border:1px solid black;
+    height:10vh;
+    margin:20px;
+    margin-bottom: 50px;
+    padding:2rem;
+}
+.container{
+    text-align: center;
+    
+}
+#btn-translate{
+    margin:20px auto;
+    background-color: #fcd34d;
+    border: none;
+    margin: 1rem 0rem;
+    padding:1rem 2rem;
+    font-size: larger;
+
+} 
+  
+.h1{
+    
+
+    background-color:#fcd34d;
+    padding:1rem;
+    border-top-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+.p-output{
+    font-size: x-large;
+    font-family: 'EB Garamond', serif;
+}
+.foot{
+    background-color:#fcd34d;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    padding-bottom: 0.6rem;
+}
