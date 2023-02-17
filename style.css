@@ -6,6 +6,7 @@ textarea{
     margin:1rem;;
     padding:2rem;
     text-decoration: none;
+    font-size :40px;
     
 }
 #output{
@@ -14,6 +15,7 @@ textarea{
     margin:20px;
     margin-bottom: 50px;
     padding:2rem;
+    font-size :40px;
 }
 .container{
     text-align: center;
