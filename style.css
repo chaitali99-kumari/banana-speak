@@ -38,18 +38,18 @@ textarea{
     display:grid;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
-    
+    grid-template-columns: repeat(3,1fr);
     
 }
 
-.h1{
-     
-    margin: ;
+.nav span{
+   
     width: max-content;
     font-size: 3rem;
     padding:1rem;
     font-weight: lighter;
     text-shadow: 5px 6px 7px red;
+   
 }
 .p-output{
     font-size: x-large;
@@ -70,4 +70,5 @@ textarea{
     align-items:center;
     margin-left: 1.5rem;
     margin-top: 0.6rem;
+    
 }
