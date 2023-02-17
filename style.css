@@ -73,3 +73,12 @@ textarea{
     margin-top: 0.6rem;
     
 }
+@media (maxwidth: 700px){
+    .nav span{
+    margin-top : 0px ;
+    margin-left: 0px;
+    
+
+    }
+}
+
