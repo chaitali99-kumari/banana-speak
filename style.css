@@ -3,9 +3,10 @@ textarea{
     width:80%;
     display:block;
     height:10vh;
-    margin:auto;
+    margin:1rem;;
     padding:2rem;
     text-decoration: none;
+    
 }
 #output{
     border:1px solid black;
@@ -18,31 +19,53 @@ textarea{
     text-align: center;
     
 }
-#btn-translate{
+#btn-translate {
+    font-size: 20px;
     margin:20px auto;
     background-color: #fcd34d;
     border: none;
     margin: 1rem 0rem;
     padding:1rem 2rem;
-    font-size: larger;
-
-} 
-  
-.h1{
-    
-
+    box-shadow: 7px 6px 7px rgb(43, 14, 14) ;
+}
+#btn-translate:hover { 
+    opacity: 0.7;
+}
+.nav{
     background-color:#fcd34d;
+    display:grid;
+    border-bottom-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+
+.h1{
+     
+    margin: ;
+    width: max-content;
+    font-size: 3rem;
     padding:1rem;
-    border-top-left-radius: 2rem;
-    border-bottom-right-radius: 2rem;
+    font-weight: lighter;
+    text-shadow: 5px 6px 7px red;
 }
 .p-output{
     font-size: x-large;
     font-family: 'EB Garamond', serif;
 }
 .foot{
+    
     background-color:#fcd34d;
     border-top-right-radius: 2rem;
     border-bottom-left-radius: 2rem;
     padding-bottom: 0.6rem;
+}
+.image{
+    width:130px;
+    height:150px;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-left: 1.5rem;
+    margin-top: 0.6rem;
 }
