@@ -6,7 +6,7 @@ textarea{
     margin:1rem;;
     padding:2rem;
     text-decoration: none;
-    font-size :4px;
+    font-size :1.7em;
     
 }
 #output{
@@ -15,7 +15,7 @@ textarea{
     margin:20px;
     margin-bottom: 50px;
     padding:2rem;
-    font-size :4px;
+    font-size :1.7em;
 }
 .container{
     text-align: center;
@@ -38,12 +38,13 @@ textarea{
     display:grid;
     border-bottom-right-radius: 1rem;
     border-top-left-radius: 1rem;
-    grid-template-columns: repeat(3,1fr);
+    /* grid-template-columns: repeat(3,1fr); */
     
 }
 
 .nav span{
-   
+    margin-left: 150px;
+    margin-top: -140px;
     width: max-content;
     font-size: 3rem;
     padding:1rem;
